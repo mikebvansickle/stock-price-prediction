@@ -37,6 +37,6 @@ def predict_price(dates, prices, x):
 
     return svr_rbf.predict(x)[0], svr_lin.predict(x)[0], svr_poly.predict(x)[0]
 
-get_data('aapl-3month-10-25-2018.csv')
+get_data('nvda-1month-10-25-2018.csv')
 predicted_price = predict_price(dates, prices, 29)
 print(predicted_price)
