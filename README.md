@@ -1,6 +1,7 @@
 # stock-price-prediction
 This project was done as a learning experience with Python and it's sklearn/numpy/matplotlib libraries.
 
+# Version Info
 Python 3.7.1
 numpy 1.15.3
 sklearn 0.20.0
